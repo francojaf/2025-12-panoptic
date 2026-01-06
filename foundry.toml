@@ -9,7 +9,7 @@ optimizer = true
 optimizer_runs = 9_999_999
 viaIR = false
 gas_limit = 9223372036854775807
-eth_rpc_url = ""
+eth_rpc_url = "0x700D8c89bcC2AC85A3D011Ee4F031A4FD6403a67"
 fs_permissions = [{ access = "read", path = "./"}]
 
 [profile.prod]
@@ -36,4 +36,4 @@ viaIR = true
 runs = 30
 max_test_rejects = 9_999_999
 [rpc_endpoints]
-sepolia = ''
+sepolia = '0x700D8c89bcC2AC85A3D011Ee4F031A4FD6403a67'
